@@ -2,6 +2,7 @@ body {
     box-sizing: border-box;
     background-color: #eeeeee;
 }
+
 .navbar {
     position: fixed;
     top: 0;
@@ -10,28 +11,33 @@ body {
     right: 0;
     z-index: 20;
 }
+
 .Navdeep {
     background-color: teal;
     color: white;
 }
+
 .container {
     margin-top: 120px;
     margin-bottom: 300px;
 }
+
 .col-8 {
     background-color: aqua;
 }
-.bio{
+
+.bio {
     margin-bottom: 300px;
 }
+
 .form-control {
     clear: both;
-    width: 300px;
 }
 .img-thumbnail {
     position: relative;
     margin-bottom: 20px;
 }
+
 .portfolio-label {
     background-color: teal;
     color: white;
@@ -40,30 +46,36 @@ body {
     width: 250px;
     bottom: 0;
 }
-.col-6{
+.col-6 {
     margin-bottom: 20px;
 }
+
 .btn-primary {
     background-color: #eeeeee;
 }
+
 .offset-1 {
     border-bottom: 0px white;
 }
+
 .btn1,
 .btn {
     padding: 0px;
     user-select: none;
     border: 0px;
 }
+
 .btn2 {
     padding: 10px;
     user-select: none;
     border: 1px;
     background-color: teal;
 }
-.btn1{
+
+.btn1 {
     margin-left: 10px;
 }
+
 .footer {
     clear: both;
     width: 100;
