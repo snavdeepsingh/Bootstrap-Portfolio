@@ -1,5 +1,4 @@
 body {
-    box-sizing: border-box;
     background-color: #eeeeee;
 }
 
@@ -23,7 +22,7 @@ body {
 }
 
 .col-8 {
-    background-color: aqua;
+    background-color: whitesmoke;
 }
 
 .bio {
@@ -36,49 +35,28 @@ body {
 .img-thumbnail {
     position: relative;
     margin-bottom: 20px;
+    width: 80%;
+    margin: 5px;
 }
-
 .portfolio-label {
     background-color: teal;
     color: white;
     text-align: center;
     position: absolute;
-    width: 250px;
+    width: 72%;
     bottom: 0;
+    margin: 5px;
 }
 .col-6 {
     margin-bottom: 20px;
 }
-
-.btn-primary {
-    background-color: #eeeeee;
+.card-link img {
+    height: auto;
+    width: 20%;
 }
-
-.offset-1 {
-    border-bottom: 0px white;
-}
-
-.btn1,
-.btn {
-    padding: 0px;
-    user-select: none;
-    border: 0px;
-}
-
-.btn2 {
-    padding: 10px;
-    user-select: none;
-    border: 1px;
-    background-color: teal;
-}
-
-.btn1 {
-    margin-left: 10px;
-}
-
 .footer {
     clear: both;
-    width: 100;
+    width: 100%;
     position: fixed;
     bottom: 0;
     left: 0;
